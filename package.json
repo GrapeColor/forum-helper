@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sharding dist/index.js",
+    "dev": "ts-node -r dotenv/config src",
+    "build": "run-s clean compile",
+    "compile": "tsc",
+    "clean": "rimraf dist",
+    "test": "run-s test:typescript",
+    "test:typescript": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
