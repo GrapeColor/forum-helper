@@ -1,0 +1,31 @@
+{
+  "name": "forum-helper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinimumBots/forum-helper.git"
+  },
+  "keywords": [],
+  "author": "GrapeColor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinimumBots/forum-helper/issues"
+  },
+  "homepage": "https://github.com/MinimumBots/forum-helper#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "dotenv": "^16.0.3",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
